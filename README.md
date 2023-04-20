@@ -1,2 +1,2 @@
-# Learning-Solidity
+# Learning Solidity
 Learning Solidity Programming Language - NOTES.
