@@ -27,9 +27,9 @@ contract MyContract {
     address public myAddress = 0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2;
 
 
-    // -----------------STRUCT-----------------
-
     /*
+        -----------------STRUCT-----------------
+
         Struct types are used to represent a record. Suppose you want to keep track of your books in a library.
         You might want to track the following attributes about each book −
 
@@ -50,4 +50,13 @@ contract MyContract {
         ``                         ``
         `````````````````````````````
     */
+
+    // -----------------STRUCT-----------------
+
+    struct MyStruct {
+        uint256 myUnit256;
+        string myString;
+    }
+
+    MyStruct public myStruct = MyStruct(1,"Hello World!");          // Creating an instance for MyStruct
 }
