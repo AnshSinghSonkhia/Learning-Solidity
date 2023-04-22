@@ -27,5 +27,5 @@ contract Counter {          // File name is used after `contract` ---> Here, i.e
      function incrementCount() public {
         // count = count + 1;
         count++;
-    }           // Video at 9:13
+    }           
 }
