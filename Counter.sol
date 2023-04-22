@@ -12,6 +12,10 @@ contract Counter {          // File name is used after `contract` ---> Here, i.e
                                 Just like signed integers, this value data type takes up to 32B by default. 
                                 */
 
+    constructor() public {
+        count = 0;
+    }
+
     function getCount() public view returns(uint) {
         return count;
     }
